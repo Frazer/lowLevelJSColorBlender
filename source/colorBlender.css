@@ -1,0 +1,36 @@
+body{
+	margin:0;
+	overflow: hidden;
+}
+
+.column{
+	box-sizing: border-box;
+	float: left;
+	height: 100vh;
+	padding: 10px;
+}
+.leftColumn {
+	width: 20%;
+  background-color:#aaa;
+}
+
+.mainColumn {
+	width: 80%; 
+	position: relative; 
+}
+#userActions{
+	position: absolute;
+	display: table-cell;
+	height: 90%;
+	width: 95%;
+	vertical-align: middle;
+	text-align: center;
+	color: #37474F;
+	background-color: #FFFFFF;
+	border: solid 2px #333333;
+	border-radius: 10px;
+}
+#userActions input{
+	display: none;
+}
+

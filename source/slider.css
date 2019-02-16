@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+fieldset{
+  border: none;
+}
+label, output{
+  padding: 2px 2px;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  font-size: 1.1em;
+}
+label{
+  margin-left:10%;
+}
+label[for=r], output[for=r]{
+  background-color: #f00;
+}
+label[for=g], output[for=g]{
+  background-color: #0f0;
+}
+label[for=b], output[for=b]{
+  background-color: #00f;
+}
+input[type=range]{
+  width:50%;
+}
