@@ -1,17 +1,9 @@
-Open index.html to see the demo.
+This was a project to investiage altering the color levels on a bmp manually.
 
-included are 2 bmps that work well with this demo.
-
-many bmps distort, so I will try to fix these.
-
-the first hour was spent creating the page, layout and uploading,
-the next 7 hours of this project were spent tryng to decode the base64 bmp dataURI
-the next 40 minutes was spent making the color slider work
-
-sorry for the naive color slider solution, but that is all I have time for
-
+See the demo here:
+https://frazer.github.io/lowLevelJSColorBlender/source/index.html
 
 This current solution only works for 24bit bmp files
 See: http://www.di.unito.it/~marcog/SM/BMPformat-Wiki.pdf
 
-I could adjust convertTo2d function to handle 16 bit bmps, but that is outside the scope of this assignment.
+Todo: I could adjust convertTo2d function to handle 16 bit bmps, but that is outside the scope of this assignment.
